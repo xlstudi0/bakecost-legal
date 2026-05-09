@@ -1,6 +1,12 @@
-# Política de Privacidad — BakeCost
+# BakeCost — Privacy Policy / Política de Privacidad
 
-**Última actualización: 9 de mayo de 2026**
+**Effective date / Vigente desde: May 9, 2026**
+
+🇪🇸 [Español](#política-de-privacidad--bakecost) · 🇬🇧 [English](#privacy-policy--bakecost)
+
+---
+
+# Política de Privacidad — BakeCost
 
 Esta política describe cómo BakeCost ("la app", "nosotros") trata tu información cuando usas la aplicación móvil.
 
@@ -103,4 +109,107 @@ Si tienes preguntas sobre esta política o sobre cómo la app trata tu informaci
 
 ---
 
-*Esta política se aplica a la versión móvil de BakeCost distribuida en App Store y Google Play.*
+# Privacy Policy — BakeCost
+
+This policy describes how BakeCost ("the app", "we") handles your information when you use the mobile application.
+
+## Quick summary
+
+- **We don't collect any data from you.** All your information is stored only on your device.
+- **We don't operate servers that receive your data.**
+- **We don't use analytics, tracking, or advertising.**
+- **We don't share information with third parties.**
+
+## Information the app handles
+
+All information is stored **locally on your device** using the app's private storage. This includes:
+
+- Your products, recipes, and ingredients
+- Your customers (name, phone, email if you add them)
+- Your orders, quotes, and payments
+- Your inventory and movements
+- Notes, photos of products and orders
+- Business settings (name, contact)
+
+None of this leaves your phone unless you actively share it.
+
+## Actions you control
+
+When you decide to share something, the following happens:
+
+- **Quote via WhatsApp:** opens your WhatsApp app with the message ready. You choose who to send it to. We see nothing.
+- **Quote PDF:** generates the file on your device and opens the system panel so you can choose how to share it (email, AirDrop, messages, etc.).
+- **Backup of your data:** you generate a file and share it by email, WhatsApp, or save it to iCloud / Google Drive. You decide where.
+- **Call / WhatsApp a customer:** opens your system app with the number prefilled.
+
+## System permissions
+
+The app may ask you for these permissions. You can deny them without losing core functionality:
+
+- **Camera:** only if you choose to take a photo of a product or reference for an order. The photo is saved locally only.
+- **Photos / Library:** only if you choose to pick an existing image.
+- **Notifications:** only if you enable order reminders. They are generated locally on your device, not from any server.
+
+## Your rights over your information
+
+Since all your information lives only on your device, you have full control at any time:
+
+- **Access:** all your information is visible and editable directly from the app.
+- **Edit and delete:** you can modify or delete products, orders, customers, ingredients, photos, and notes individually.
+- **Export:** from **More → Backup → Create backup**, you generate a file with all your information to keep on your own.
+- **Delete everything:** from **More → Backup → Delete all**, you erase absolutely all information from the app on your device. This action is immediate and cannot be undone.
+
+You don't need to ask for our permission or wait for a response to exercise any of these rights — everything is under your direct control.
+
+## Data retention
+
+The information you save in the app remains on your device **until you decide to delete it**, or until you uninstall the app. We do not keep any copy or backup on any server.
+
+If you create a manual backup and upload it to iCloud, Google Drive, or send it by email, that copy is outside our control and is governed by the privacy policies of the service where you store it.
+
+## Security
+
+Since the app does not send your information to any external server, **encryption in transit does not apply** (there is no transit).
+
+Information on your device is protected by the same security measures of your operating system (iOS / Android): device encryption, lock code, and your phone's own privacy controls.
+
+If you lose your device or switch phones, the only way to recover your information is from a backup you made previously.
+
+## Third-party services and libraries
+
+The app is built on standard technologies that may include third-party components:
+
+- **Expo / React Native:** development framework. Does not collect user data in production.
+- **Expo Notifications:** handles local notifications. Notifications are scheduled on your device and do not pass through any push notification server.
+- **Expo Image Picker:** lets you pick images from your gallery or take photos. Images are saved only in the app's private storage.
+- **Google Play Services / Apple App Store:** handle installation, updates, and subscription payments according to Google's and Apple's policies respectively.
+
+We do not use third-party analytics (Google Analytics, Firebase, Mixpanel, etc.), advertising, or behavioral trackers.
+
+## Premium subscription
+
+If you subscribe to the Premium plan, payment is processed by Apple (App Store) or Google (Google Play) depending on your device. We receive only confirmation that you paid, without any information about your card or payment method.
+
+To manage or cancel your subscription, go to your App Store or Google Play account settings.
+
+## Children
+
+The app is intended for adults who manage a bakery business. **We do not request or track the user's age.**
+
+We do not knowingly collect any personal information from children under 13. Since the app does not collect data from any user in general, this is met by design.
+
+If you have evidence that a child under 13 is using the app and need any associated information removed, write to us at `soporte@bakecost.app` and we will address your request — though the local information on the child's device can also be erased directly from the **Delete all** option within the app.
+
+## Changes to this policy
+
+If we change something important, we will update the date at the top of this document and, where applicable, notify you in the app.
+
+## Contact
+
+If you have questions about this policy or how the app handles your information, write to us at:
+
+**soporte@bakecost.app**
+
+---
+
+*This policy applies to the mobile version of BakeCost distributed on App Store and Google Play.*
