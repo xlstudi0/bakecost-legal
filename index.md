@@ -1,6 +1,6 @@
 # BakeCost — Privacy Policy / Política de Privacidad
 
-**Effective date / Vigente desde: May 9, 2026**
+**Effective date / Vigente desde: May 24, 2026**
 
 🇪🇸 [Español](#política-de-privacidad--bakecost) · 🇬🇧 [English](#privacy-policy--bakecost)
 
