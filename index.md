@@ -12,10 +12,11 @@ Esta política describe cómo BakeCost ("la app", "nosotros") trata tu informaci
 
 ## Resumen rápido
 
-- **No recolectamos ningún dato tuyo.** Toda tu información se guarda solo en tu dispositivo.
-- **No tenemos servidores que reciban tu data.**
+- **Tu información de negocio se queda solo en tu dispositivo.** Pedidos, clientes, recetas, fotos, todo: nunca sale del celular.
+- **No tenemos servidores que reciban tu data de negocio.**
 - **No usamos analítica, tracking, ni publicidad.**
 - **No compartimos información con terceros.**
+- **Reportes de errores:** cuando la app se cae, enviamos automáticamente la traza técnica del error (sin nombres, sin pedidos, sin nada tuyo) a un servicio llamado Sentry para arreglarlo. Detalles más abajo.
 
 ## Información que la app maneja
 
@@ -79,15 +80,11 @@ La app está construida sobre tecnologías estándar que pueden incluir componen
 - **Expo / React Native:** framework de desarrollo. No recolecta data de usuario en producción.
 - **Expo Notifications:** maneja las notificaciones locales. Las notificaciones se programan en tu dispositivo, no pasan por ningún servidor de notificaciones push.
 - **Expo Image Picker:** permite seleccionar imágenes de tu galería o tomar fotos. Las imágenes se guardan solo en el almacenamiento privado de la app.
-- **Google Play Services / Apple App Store:** procesan la instalación, actualizaciones y pagos de suscripción según las políticas de Google y Apple respectivamente.
+- **Google Play Services / Apple App Store:** procesan la instalación y actualizaciones según las políticas de Google y Apple respectivamente.
+- **PayPal (opcional):** si decides apoyar el desarrollo desde la pantalla "Apoyar", la app abre un enlace externo de PayPal Donations en tu navegador. El pago se procesa enteramente en PayPal. Nosotros no recibimos información de tu tarjeta ni de tu cuenta — solo la confirmación de la donación. Apoyar no desbloquea ninguna función en la app.
+- **Sentry (reportes de errores):** cuando la app se cierra inesperadamente o detecta un error técnico, envía automáticamente un reporte a Sentry para que podamos diagnosticarlo y arreglarlo. El reporte incluye: la traza del error (stack trace), el modelo de tu dispositivo, la versión del sistema operativo, la versión de la app y la zona horaria/idioma. **NO incluye:** tu nombre, tus pedidos, tus clientes, tus recetas, fotos, montos, ni ningún dato de tu negocio. Sentry es un servicio especializado en reportes de crashes que NO usamos para tracking, publicidad ni análisis de comportamiento.
 
 No usamos analítica de terceros (Google Analytics, Firebase, Mixpanel, etc.), ni publicidad, ni rastreadores de comportamiento.
-
-## Suscripción Premium
-
-Si te suscribes al plan Premium, el cobro lo procesa Apple (App Store) o Google (Google Play) según tu dispositivo. Nosotros recibimos solo la confirmación de que pagaste, sin información de tu tarjeta o método de pago.
-
-Para administrar o cancelar tu suscripción, ve a la configuración de tu cuenta de App Store o Google Play.
 
 ## Niños
 
@@ -115,10 +112,11 @@ This policy describes how BakeCost ("the app", "we") handles your information wh
 
 ## Quick summary
 
-- **We don't collect any data from you.** All your information is stored only on your device.
-- **We don't operate servers that receive your data.**
+- **Your business information stays only on your device.** Orders, customers, recipes, photos, everything: never leaves the phone.
+- **We don't operate servers that receive your business data.**
 - **We don't use analytics, tracking, or advertising.**
 - **We don't share information with third parties.**
+- **Crash reports:** when the app crashes, we automatically send the technical error trace (no names, no orders, nothing personal) to a service called Sentry so we can fix it. Details below.
 
 ## Information the app handles
 
@@ -182,15 +180,11 @@ The app is built on standard technologies that may include third-party component
 - **Expo / React Native:** development framework. Does not collect user data in production.
 - **Expo Notifications:** handles local notifications. Notifications are scheduled on your device and do not pass through any push notification server.
 - **Expo Image Picker:** lets you pick images from your gallery or take photos. Images are saved only in the app's private storage.
-- **Google Play Services / Apple App Store:** handle installation, updates, and subscription payments according to Google's and Apple's policies respectively.
+- **Google Play Services / Apple App Store:** handle installation and updates according to Google's and Apple's policies respectively.
+- **PayPal (optional):** if you choose to support development from the "Support" screen, the app opens an external PayPal Donations link in your browser. The payment is processed entirely by PayPal. We do not receive any information about your card or account — only confirmation of the donation. Supporting does not unlock any feature in the app.
+- **Sentry (crash reporting):** when the app crashes unexpectedly or detects a technical error, it automatically sends a report to Sentry so we can diagnose and fix it. The report includes: the error stack trace, your device model, the OS version, the app version, and your timezone/locale. **It does NOT include:** your name, your orders, your customers, your recipes, photos, amounts, or any data from your business. Sentry is a specialized crash-reporting service that we do NOT use for tracking, advertising, or behavioral analysis.
 
 We do not use third-party analytics (Google Analytics, Firebase, Mixpanel, etc.), advertising, or behavioral trackers.
-
-## Premium subscription
-
-If you subscribe to the Premium plan, payment is processed by Apple (App Store) or Google (Google Play) depending on your device. We receive only confirmation that you paid, without any information about your card or payment method.
-
-To manage or cancel your subscription, go to your App Store or Google Play account settings.
 
 ## Children
 
